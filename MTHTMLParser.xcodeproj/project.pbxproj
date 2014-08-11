@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB2986B1989818300E8520D /* MTRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB298661989818300E8520D /* MTRegExp.swift */; };
+		EFD2C0B3198976FD00214A9B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2C0AF198976FD00214A9B /* main.swift */; };
+		EFD2C0B4198976FD00214A9B /* MTHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2C0B0198976FD00214A9B /* MTHTMLNode.swift */; };
+		EFD2C0B5198976FD00214A9B /* MTHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2C0B1198976FD00214A9B /* MTHTMLParser.swift */; };
+		EFD2C0B819897DD800214A9B /* MTHTMLTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2C0B719897DD800214A9B /* MTHTMLTextNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFB36AF7198950840015EDB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFB298661989818300E8520D /* MTRegExp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTRegExp.swift; sourceTree = "<group>"; };
+		EFB36AF9198950840015EDB0 /* MTHTMLParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MTHTMLParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2C0AF198976FD00214A9B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = MTHTMLParser/main.swift; sourceTree = SOURCE_ROOT; };
+		EFD2C0B0198976FD00214A9B /* MTHTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MTHTMLNode.swift; path = MTHTMLParser/MTHTMLNode.swift; sourceTree = SOURCE_ROOT; };
+		EFD2C0B1198976FD00214A9B /* MTHTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MTHTMLParser.swift; path = MTHTMLParser/MTHTMLParser.swift; sourceTree = SOURCE_ROOT; };
+		EFD2C0B719897DD800214A9B /* MTHTMLTextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTHTMLTextNode.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB36AF6198950840015EDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0F616819896D9D00DEC7F6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EFB298641989818300E8520D /* SwiftRegExp */,
+			);
+			name = lib;
+			path = HTMLParser;
+			sourceTree = "<group>";
+		};
+		EFB298641989818300E8520D /* SwiftRegExp */ = {
+			isa = PBXGroup;
+			children = (
+				EFB298661989818300E8520D /* MTRegExp.swift */,
+			);
+			name = SwiftRegExp;
+			path = ../../SwiftRegExp/SwiftRegExp;
+			sourceTree = "<group>";
+		};
+		EFB36AF0198950840015EDB0 = {
+			isa = PBXGroup;
+			children = (
+				EF0F616819896D9D00DEC7F6 /* lib */,
+				EFB36AFB198950840015EDB0 /* MTHTMLParser */,
+				EFB36AFA198950840015EDB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB36AFA198950840015EDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB36AF9198950840015EDB0 /* MTHTMLParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB36AFB198950840015EDB0 /* MTHTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2C0AF198976FD00214A9B /* main.swift */,
+				EFD2C0B0198976FD00214A9B /* MTHTMLNode.swift */,
+				EFD2C0B719897DD800214A9B /* MTHTMLTextNode.swift */,
+				EFD2C0B1198976FD00214A9B /* MTHTMLParser.swift */,
+			);
+			name = MTHTMLParser;
+			path = HTMLParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB36AF8198950840015EDB0 /* MTHTMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB36B00198950840015EDB0 /* Build configuration list for PBXNativeTarget "MTHTMLParser" */;
+			buildPhases = (
+				EFB36AF5198950840015EDB0 /* Sources */,
+				EFB36AF6198950840015EDB0 /* Frameworks */,
+				EFB36AF7198950840015EDB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTHTMLParser;
+			productName = HTMLParser;
+			productReference = EFB36AF9198950840015EDB0 /* MTHTMLParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB36AF1198950840015EDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = KikuraYuichirou;
+				TargetAttributes = {
+					EFB36AF8198950840015EDB0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = EFB36AF4198950840015EDB0 /* Build configuration list for PBXProject "MTHTMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFB36AF0198950840015EDB0;
+			productRefGroup = EFB36AFA198950840015EDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB36AF8198950840015EDB0 /* MTHTMLParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB36AF5198950840015EDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2C0B3198976FD00214A9B /* main.swift in Sources */,
+				EFD2C0B5198976FD00214A9B /* MTHTMLParser.swift in Sources */,
+				EFB2986B1989818300E8520D /* MTRegExp.swift in Sources */,
+				EFD2C0B819897DD800214A9B /* MTHTMLTextNode.swift in Sources */,
+				EFD2C0B4198976FD00214A9B /* MTHTMLNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFB36AFE198950840015EDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFB36AFF198950840015EDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFB36B01198950840015EDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MTHTMLParser;
+			};
+			name = Debug;
+		};
+		EFB36B02198950840015EDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MTHTMLParser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB36AF4198950840015EDB0 /* Build configuration list for PBXProject "MTHTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB36AFE198950840015EDB0 /* Debug */,
+				EFB36AFF198950840015EDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB36B00198950840015EDB0 /* Build configuration list for PBXNativeTarget "MTHTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB36B01198950840015EDB0 /* Debug */,
+				EFB36B02198950840015EDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB36AF1198950840015EDB0 /* Project object */;
+}
